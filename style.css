@@ -341,9 +341,9 @@ img.second-photo {
 }
 
 @media screen and (max-width: 1024px) {
-  .item {
+  /*.item {
     height: 350px; 
-  }
+  }*/
 
   .item {
     height: 210px;
@@ -355,16 +355,16 @@ img.second-photo {
   }
 }  
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   .container-posters {
     max-width: 800px;
   }
-} 
+} */
 
 @media screen and (max-width: 550px) {
-  .container-posters {
+  /*.container-posters {
     max-width: 600px;
-  }
+  }*/
 
   .item {
     height: 190px; 
