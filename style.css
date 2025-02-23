@@ -97,7 +97,7 @@ header {
 
 @media screen and (max-width: 525px) {
   .section-about-hobby .wrap {
-    max-width: 400px; 
+    max-width: 330px; 
   }
 } 
 
@@ -292,6 +292,14 @@ img.second-photo {
 @media screen and (max-width: 520px) {
   img.first-photo, img.second-photo {
     max-width: 190px;
+  }
+
+  img.first-photo {
+    right: 75px;
+  }
+  
+  img.second-photo {
+    left: 75px;
   }
 }  
 
