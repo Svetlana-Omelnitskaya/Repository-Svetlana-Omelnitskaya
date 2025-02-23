@@ -344,12 +344,6 @@ img.second-photo {
   .item {
     height: 295px; 
   }
-}  
-
-@media screen and (max-width: 768px) {
-  .container-posters {
-    max-width: 800px;
-  }
 
   .item {
     height: 210px;
@@ -358,6 +352,12 @@ img.second-photo {
 
   .item:not(:last-child) {
     margin-right: 5px;
+  }
+}  
+
+@media screen and (max-width: 768px) {
+  .container-posters {
+    max-width: 800px;
   }
 } 
 
