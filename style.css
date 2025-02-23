@@ -266,6 +266,14 @@ img.second-photo {
   img.first-photo, img.second-photo {
     max-width: 220px;
   }
+
+  img.first-photo {
+    right: 130px;
+  }
+  
+  img.second-photo {
+    left: 130px;
+  }
 }
 
 .container-posters {
