@@ -268,11 +268,11 @@ img.second-photo {
   }
 
   img.first-photo {
-    right: 130px;
+    right: 90px;
   }
   
   img.second-photo {
-    left: 130px;
+    left: 90px;
   }
 }
 
