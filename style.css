@@ -331,10 +331,9 @@ img.second-photo {
 }
 
 @media screen and (max-width: 1024px) {
-  .item img {
+  .item {
     height: 310px;
     width: calc((100% - 3 * 5px)/4);
-
   }
 
   .item:not(:last-child) {
@@ -343,7 +342,7 @@ img.second-photo {
 }  
 
 @media screen and (max-width: 550px) {
-  .item img {
+  .item {
     height: 190px; 
   }
 }  
