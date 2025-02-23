@@ -96,7 +96,13 @@ header {
 
 @media screen and (max-width: 530px) {
   .section-about-hobby .wrap {
-    max-width: 390px; 
+    max-width: 410px; 
+  }
+} 
+
+@media screen and (max-width: 500px) {
+  .section-about-hobby .wrap {
+    max-width: 370px; 
   }
 } 
 
