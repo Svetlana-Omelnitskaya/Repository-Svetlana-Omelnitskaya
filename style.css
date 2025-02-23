@@ -26,6 +26,7 @@ body {
 header {
   background-image: url("img/banner1.jpg");
   background-size: contain;
+  background-repeat: no-repeat;
   padding: 70px 0 70px;
   display: flex;
   justify-content: space-around;
@@ -94,6 +95,12 @@ header {
   }
 } 
 
+@media screen and (max-width: 525px) {
+  .section-about-hobby .wrap {
+    max-width: 300px; 
+  }
+} 
+
 .wrap {
   position: relative;
 }
@@ -145,7 +152,7 @@ header {
 }  
 
 @media screen and (max-width: 1024px) {
-  wrapper {
+  .wrapper {
     max-width: 600px;
   }
 
