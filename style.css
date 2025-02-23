@@ -331,17 +331,10 @@ img.second-photo {
 }
 
 @media screen and (max-width: 1024px) {
-  .section-favourite-films {
-    padding-bottom: 80px;
-  }
-
   .item img {
-    height: 330px; 
-  }
-
-  .item {
-    height: 210px;
+    height: 310px;
     width: calc((100% - 3 * 5px)/4);
+
   }
 
   .item:not(:last-child) {
