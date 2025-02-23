@@ -280,7 +280,7 @@ img.second-photo {
   }
 } 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 675px) {
   img.first-photo, img.second-photo {
     max-width: 220px;
   }
