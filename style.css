@@ -88,6 +88,12 @@ header {
   }
 } 
 
+@media screen and (max-width: 1024px) {
+  .section-about-hobby .wrapper {
+    max-width: 600px; 
+  }
+} 
+
 .wrap {
   position: relative;
 }
@@ -268,11 +274,11 @@ img.second-photo {
   }
 
   img.first-photo {
-    right: 90px;
+    right: 85px;
   }
   
   img.second-photo {
-    left: 90px;
+    left: 85px;
   }
 }
 
