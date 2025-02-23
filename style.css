@@ -100,15 +100,15 @@ header {
   }
 }  
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 560px) {
   .section-about-hobby .wrap {
     max-width: 410px; 
   }
 } 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .section-about-hobby .wrap {
-    max-width: 370px; 
+    max-width: 330px; 
   }
 } 
 
@@ -312,7 +312,13 @@ img.second-photo {
   img.second-photo {
     left: 75px;
   }
-}  
+} 
+
+@media screen and (max-width: 525px) {
+  img.first-photo, img.second-photo {
+    max-width: 175px;
+  }
+}
 
 .container-posters {
   display: flex;
@@ -328,6 +334,10 @@ img.second-photo {
   width: calc((100% - 3 * 20px)/4);
   height: 370px; 
   padding: 5px;
+}
+
+.item:not(:last-child) {
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -360,10 +370,6 @@ img.second-photo {
     height: 190px; 
   }
 }  
-
-.item:not(:last-child) {
-  margin-right: 20px;
-}
 
 footer {
   background-image: url(img/banner2.jpg);
