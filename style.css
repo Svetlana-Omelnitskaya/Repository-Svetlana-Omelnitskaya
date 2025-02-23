@@ -94,7 +94,7 @@ header {
   }
 } 
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 530px) {
   .section-about-hobby .wrap {
     max-width: 390px; 
   }
@@ -325,6 +325,10 @@ img.second-photo {
 }  
 
 @media screen and (max-width: 768px) {
+  .container-posters {
+    max-width: 800px;
+  }
+
   .item {
     height: 210px;
     width: calc((100% - 3 * 5px)/4);
@@ -336,6 +340,10 @@ img.second-photo {
 } 
 
 @media screen and (max-width: 550px) {
+  .container-posters {
+    max-width: 600px;
+  }
+
   .item {
     height: 190px; 
   }
