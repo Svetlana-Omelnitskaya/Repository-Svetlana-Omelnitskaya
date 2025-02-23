@@ -180,11 +180,11 @@ header {
   }
 
   .section-about-IT .wrap::after {
-    bottom: -20px;
+    bottom: -17px;
   }
   
   .section-about-IT .wrap::before {
-    bottom: -20px;
+    bottom: -30px;
   }
 } 
 
@@ -341,9 +341,9 @@ img.second-photo {
 }
 
 @media screen and (max-width: 1024px) {
-  /*.item {
+  .item img {
     height: 350px; 
-  }*/
+  }
 
   .item {
     height: 210px;
@@ -355,18 +355,8 @@ img.second-photo {
   }
 }  
 
-/*@media screen and (max-width: 768px) {
-  .container-posters {
-    max-width: 800px;
-  }
-} */
-
 @media screen and (max-width: 550px) {
-  /*.container-posters {
-    max-width: 600px;
-  }*/
-
-  .item {
+  .item img {
     height: 190px; 
   }
 }  
