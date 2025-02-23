@@ -180,7 +180,7 @@ header {
   }
 
   .section-about-IT .wrap::after {
-    bottom: 7px;
+    bottom: -10px;
   }
   
   .section-about-IT .wrap::before {
@@ -342,7 +342,7 @@ img.second-photo {
 
 @media screen and (max-width: 1024px) {
   .item {
-    height: 295px; 
+    height: 330px; 
   }
 
   .item {
