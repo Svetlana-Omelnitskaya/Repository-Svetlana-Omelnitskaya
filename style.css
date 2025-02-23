@@ -96,7 +96,7 @@ header {
 
 @media screen and (max-width: 525px) {
   .section-about-hobby .wrap {
-    max-width: 420px; 
+    max-width: 390px; 
   }
 } 
 
@@ -326,9 +326,20 @@ img.second-photo {
 
 @media screen and (max-width: 768px) {
   .item {
-    height: 210px; 
+    height: 210px;
+    width: calc((100% - 3 * 5px)/4);
+  }
+
+  .item:not(:last-child) {
+    margin-right: 5px;
   }
 } 
+
+@media screen and (max-width: 550px) {
+  .item {
+    height: 190px; 
+  }
+}  
 
 .item:not(:last-child) {
   margin-right: 20px;
