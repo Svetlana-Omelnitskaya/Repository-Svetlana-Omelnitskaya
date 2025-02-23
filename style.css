@@ -341,6 +341,12 @@ img.second-photo {
   }
 }  
 
+@media screen and (max-width: 830px) {
+  .item {
+    height: 260px; 
+  }
+}  
+
 @media screen and (max-width: 550px) {
   .item {
     height: 190px; 
