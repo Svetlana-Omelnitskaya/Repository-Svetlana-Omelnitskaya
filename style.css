@@ -97,7 +97,7 @@ header {
 
 @media screen and (max-width: 525px) {
   .section-about-hobby .wrap {
-    max-width: 300px; 
+    max-width: 400px; 
   }
 } 
 
@@ -288,6 +288,12 @@ img.second-photo {
     left: 85px;
   }
 }
+
+@media screen and (max-width: 520px) {
+  img.first-photo, img.second-photo {
+    max-width: 190px;
+  }
+}  
 
 .container-posters {
   display: flex;
